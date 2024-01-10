@@ -1,0 +1,16 @@
+.title, .skillsdiv {
+    border: solid white 1px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.title p {
+    color: #FF8303;
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+.skillsdiv p {
+    font-size: 1.1em;
+    line-height: 20px
+}

@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+    .respons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .media {
+        justify-content: flex-start !important;
+    }
+}
