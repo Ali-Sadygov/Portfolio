@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import imageback from './assets/images/backgroundimage.png'
 import style from './assets/css/style.module.css'
+import Cv from './assets/files/AliSadygovDeveloper.CV.pdf'
 import '../../assets/css/reset.css'
 
 
@@ -21,8 +22,12 @@ export default function Home() {
                                 <span className={style.span2}>End</span>
                                 <span className={style.span2}>Developer</span>
                             </h1>
-                            <p style={{fontSize: "17px"}}>Frontend developer looking for ideas and projects for himself and others</p>
-                            <button className='text-white p-3 rounded' style={{fontSize: "14px",backgroundColor: "#1C1B18", border: "solid 1px #FF8303", width: "110px"}}>ABOUT ME</button>
+                            <p style={{fontSize: "17px"}}>
+                                Frontend developer looking for ideas and projects for himself and others
+                            </p>
+                            <a href={Cv} download="AliSadygovFRONTEND" target='_blank'>
+                                <button className='text-white p-3 rounded' style={{fontSize: "14px",backgroundColor: "#1C1B18", border: "solid 1px #FF8303", width: "150px"}}>DOWNLOAD CV</button>
+                            </a>
                         </div>
                         <div className='col-6-md d-flex justify-content-center'>
                             <img src={imageback} width={'90%'}></img>
